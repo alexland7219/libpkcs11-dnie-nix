@@ -10,8 +10,8 @@ self: super: {
   libpkcs11-dnie = super.callPackage (super.fetchFromGitHub {
     owner = "alexland7219";
     repo = "libpkcs11-dnie-nix";
-    rev = "5647a0b6dfe350d83af39f4169a72e4ef127c77b";
-    sha256 = "sha256-SQ60rq5gmr87lUV8blwk3S0H1JkNX6Q2j1MjSeLD0Fo=";
+    rev = "v1.6.8-1";
+    sha256 = "sha256-AwyyC5EOYbte+/rpRzZTyTS2VSGA5GKdKNa2vQhoFIc=";
   } + "/package.nix") {};
 }
 ```
